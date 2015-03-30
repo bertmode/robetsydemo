@@ -3,4 +3,10 @@
   <data-source source="LOCAL" name="Rails etsydemo: development" uuid="aedcc101-31f1-4a8d-aa28-c231d9f99d71">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails etsydemo: test" uuid="cab5cb59-e47e-48aa-ad3a-fca8cf25f138">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails etsydemo: production" uuid="3488a02b-a759-4346-8e2a-5d3098e937fa">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>

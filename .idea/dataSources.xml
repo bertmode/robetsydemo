@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="608583481">
+  <component name="DataSourceManagerImpl" format="xml" hash="4151478845">
     <data-source source="LOCAL" name="Rails etsydemo: development" uuid="aedcc101-31f1-4a8d-aa28-c231d9f99d71">
       <driver-ref>sqlite.xerial</driver-ref>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:rubycourse_database_development</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails etsydemo: test" uuid="cab5cb59-e47e-48aa-ad3a-fca8cf25f138">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:rubycourse_database_development</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails etsydemo: production" uuid="3488a02b-a759-4346-8e2a-5d3098e937fa">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:rubycourse_database_development</jdbc-url>
       <libraries />
     </data-source>
   </component>
