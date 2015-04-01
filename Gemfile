@@ -11,6 +11,8 @@ gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass', '~> 3.3.1'
 gem 'autoprefixer-rails'
 gem "paperclip", "~> 4.2"
+gem "paperclip-dropbox", ">= 1.1.7"
+gem "figaro"
 
 group :production do
 
